@@ -1,0 +1,86 @@
+#wrapper {
+    margin:auto; /* centers my wrapper*/
+    width:1040px;
+    background:gray;
+    opacity: 1.5;
+    overflow: hidden;
+    padding:20px;
+    margin-bottom:35px;
+}
+
+body{
+    padding:50px;
+    background-image:url(https://www.firstatlanticcommerce.com/wp-content/uploads/2017/01/AdobeStock_98379618.jpeg);
+    background-repeat: no-repeat;);
+    background-repeat: no-repeat;
+
+    
+}
+    
+h1{
+    font-size:2em;
+    margin-bottom: 8px; 
+
+}
+
+h2 { font-size:1.6em;
+    margin-bottom:20px;
+    font-family:verdana,helvetica,arial,sans-serif;
+    font-size:100%;
+}
+h3 { 
+    font-size:1.2em;
+    margin-bottom:20px;
+}
+p {
+    margin-bottom:20px;
+    line-height:1.2em;
+    font-size:1em ;
+       }
+
+main {
+    width:600px;
+    float: left;
+    clear: both;
+}
+       
+aside {
+    width:320px;
+    float: right;
+    clear: both;
+       }
+       
+footer{
+    background:black;
+    height:100px;
+    line-height:50px;
+    clear: both;
+    font-size:.875em;  
+    width: 1040px;
+    
+       }
+footer a{
+    color:red; 
+    margin-bottom: 2px;
+}
+nav {
+    height:50px;
+    line-height:3em;
+    background:#000;
+    margin-bottom:20px;
+}
+nav ul {
+    margin-left:20px; 
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-right:50px; 
+}
+
+nav a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+      
