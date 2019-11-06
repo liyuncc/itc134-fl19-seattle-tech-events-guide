@@ -10,7 +10,8 @@
     <link href="css/style.css" type="text/css"  rel="stylesheet">
      
     <style>
-      body {
+    
+        body {
             background-image:url("https://download.hipwallpaper.com/desktop/1920/1080/31/49/7Zwl3R.jpg");
             background-repeat: no-repeat;
             background-size: cover;
@@ -22,7 +23,7 @@
           border-collapse: collapse;
           width: 100%;
         }
-
+     
         td, th {
           border: 1px solid #dddddd;
           text-align: left;
@@ -32,12 +33,22 @@
         tr:nth-child(even) {
           background-color: #dddddd;
         }
+
       </style>
  </head>
+
  <body>
+
      <main>
      <header>
      <h1><a>Seattle Tech Networking Events</a></h1>
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="networking-events.html">Networking</a></li>
+                <li><a href="workshop-events.html">Workshops</a></li>
+            </ul> 
+        </nav>  
      </header>
          
     <section> 
@@ -45,7 +56,7 @@
     <!--LIST OF EXTERNAL LINKS -- SHOULD THIS BE BUILT AS A TABLE WITH 4 COLUMNS (INCLUDING COST??)?? -->         
            
    
-         <table>
+         <table class="networking">
             <tr>
                 <th>Organization</th>
                 <th>Description</th>
